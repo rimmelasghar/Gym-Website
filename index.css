@@ -1,0 +1,118 @@
+/*
+
+CODE BY:
+	 
+	SYED MUHAMMAD RIMMEL ASGHAR
+
+*/
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 2px;
+	margin: 2px;
+}
+.container{
+	position: relative;
+	background-color: white;
+	height: auto;
+}
+.header{
+	background-color: white;
+	height: 10px;
+	position: sticky;
+}
+li{
+	display: inline-flex;
+	color: white;
+	float: right;
+	font-size: 25px;
+	margin: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family:'Didact Gothic';
+}
+#last{
+	padding-right: 100px;
+}
+.nav{
+	text-decoration: none;
+	color: black;
+}
+.nav:hover{
+	border-bottom: 2px;
+	border-top-style: solid;
+	border-top-color: black;
+}
+.image1{
+	float: left;
+	height: 50px;
+	width: auto;
+}
+.first{
+	height: 500px;
+	width: auto;
+	background-image: url('gym.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	opacity: 95%;
+}
+
+h1{
+	font-size: 30px;
+	font-family: 'Didact Gothic';
+	padding-top: 150px;
+	padding-left: 50px;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.submit{
+	margin-left: 50px;
+	padding: 13px 35px 13px 35px;
+	border-radius: 20px;
+	border-style: none;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-color: black;
+	font-weight: bolder;
+	text-decoration: none;
+	font-family: 'Didact Gothic';
+}
+.submit:hover{
+	background-color: white;
+	color: black;
+}
+.second{
+	display:inline-block;
+  	padding:0px;
+	height: 350px;
+	background-color: white;
+}
+.heading{
+	font-family: 'Didact Gothic';
+	padding-left: 280px;
+	font-size: 40px;
+}
+.para1{
+	color: black;
+	margin: 50px;
+	padding: 50px;
+	font-size: 20px;
+	font-family: 'Didact Gothic';
+	font-weight: bolder;
+	text-align: center;
+}
+.footer{
+	height: 150px;
+  	padding:0px;
+	background-color: black;
+}
+.foot{
+	margin: 50px;
+	padding: 50px;
+	text-align:center;
+	color: white;
+	font-family: 'Didact Gothic';
+	opacity: 95%;
+}
